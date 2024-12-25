@@ -21,9 +21,9 @@ def move(plateau, rover_position, instructions):
             # Corrected boundary check
             if next_x < 0 or next_x > plateau[0] or next_y < 0 or next_y > plateau[1]:
                 raise ValueError(f"Rover moved out of plateau bounds: ({next_x}, {next_y})")
-
             x, y = next_x, next_y
-
+    
+    
     return x, y, direction
 
 
