@@ -28,7 +28,7 @@ def move(plateau, rover_position, instructions):
     return x, y, direction
 
 
-def process_rovers():
+def rovers():
     print("Give input:")
     try:
         plateau = tuple(map(int, input().split()))
@@ -84,4 +84,4 @@ def process_rovers():
         print(result)
 
 if __name__ == "__main__":
-    process_rovers()
+    rovers()
